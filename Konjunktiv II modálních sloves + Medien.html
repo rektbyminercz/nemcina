@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light">
+<title>Konjunktiv II modálních sloves + Medien</title>
+<style>
+:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);--pu:#EEEDFE;--pud:#534AB7;--pux:#3C3489;--bl:#E6F1FB;--bld:#185FA5;--blx:#0C447C;--gr:#EAF3DE;--grd:#3B6D11;--grx:#27500A;--co:#FAECE7;--cod:#D85A30;--cox:#712B13;--am:#FAEEDA;--amd:#BA7517;--amx:#633806}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;background:#FFF9EC;color:#2b2a27;font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:760px;margin:0 auto;padding:16px 16px 56px}
+.hero{background:linear-gradient(135deg,#7F77DD,#378ADD);color:#fff;border-radius:20px;padding:22px 20px}
+.hero h1{margin:0 0 4px;font-size:26px;line-height:1.2}
+.hero p{margin:0;opacity:.95}
+nav{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0 4px}
+nav a{text-decoration:none;color:#2b2a27;background:#fff;border:2px solid #e8dfc8;border-radius:999px;padding:6px 14px;font-size:14px}
+h2{font-size:20px;margin:34px 0 12px;display:flex;align-items:center;gap:10px}
+h2 i{font-style:normal;width:30px;height:30px;border-radius:50%;background:var(--cod);color:#fff;display:inline-flex;align-items:center;justify-content:center;font-size:15px}
+button{font:inherit;color:inherit;border:2px solid #e8dfc8;background:#fff;border-radius:12px;padding:8px 14px;cursor:pointer;min-height:42px}
+.pr{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:14px}
+.pr button.on{background:#534AB7;border-color:#534AB7;color:#fff}
+.g2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.v{border:2px solid;border-radius:16px;padding:12px 14px}
+.v small{display:block;font-size:13px;opacity:.85}
+.v .big{font-size:26px;font-weight:700;line-height:1.3}
+.v .cz{font-size:13px;margin-top:2px;opacity:.85}
+.m{background:var(--pu);border-color:var(--pud);color:var(--pux)}
+.k{background:var(--bl);border-color:var(--bld);color:var(--blx)}
+.s{background:var(--gr);border-color:var(--grd);color:var(--grx)}
+.d{background:var(--co);border-color:var(--cod);color:var(--cox)}
+.u{background:#FAC775;color:#412402;border-radius:6px;padding:0 3px}
+.tt{background:#2b2a27;color:#fff;border-radius:6px;padding:0 5px;margin:0 1px}
+.rule{background:#fff;border:2px solid #2b2a27;border-radius:16px;padding:12px 14px;margin-top:12px;text-align:center}
+.rule .big{font-size:20px;font-weight:700}
+.cz2{display:block;font-size:13px;font-weight:400;margin-top:2px}
+.vb{cursor:default}
+.leg{font-size:13px;margin-top:10px;color:#6b6a64}
+.ex{border-left:8px solid;border-radius:12px;padding:10px 14px;margin-bottom:10px}
+.ex small{display:block;font-size:13px;opacity:.85}
+.ex b{font-weight:700}
+.past{background:var(--am);border:2px dashed var(--amd);color:var(--amx);border-radius:16px;padding:12px 14px}
+.cat{font-size:14px;font-weight:700;margin:16px 0 8px}
+.vg{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.vb{text-align:left;min-height:56px;line-height:1.3;border-width:2px;border-style:solid;font-weight:500}
+.vb.f{filter:saturate(1.3);font-weight:700}
+.qc{background:#fff;border:2px solid #e8dfc8;border-radius:16px;padding:14px}
+.qc .t{font-size:19px;margin:4px 0 0}
+.opts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-top:12px}
+.opts .right{background:var(--gr);border-color:var(--grd);color:var(--grx);font-weight:700}
+.opts .wrong{background:var(--co);border-color:var(--cod);color:var(--cox)}
+.sc{font-size:28px;font-weight:700;margin:6px 0 10px}
+@media (min-width:640px){.vg{grid-template-columns:repeat(3,minmax(0,1fr))}}
+</style>
+</head>
+<body>
+<main>
+<div class="hero"><h1>Konjunktiv II modálních sloves</h1><p>müssen · können · sollen · dürfen + Medien</p></div>
+<nav><a href="#t1">Tvary</a><a href="#t2">Použití</a><a href="#t3">Slovíčka</a><a href="#t4">Kvíz</a></nav>
+
+<h2 id="t1"><i>1</i>Tvary</h2>
+<div class="pr" id="pr"></div>
+<div class="g2" id="grid"></div>
+<div class="rule"><div class="lab" style="font-size:13px;color:#6b6a64">Pravidlo</div><div class="big">kmen + <span class="tt">t</span> + koncovka</div><div style="margin-top:4px">müss<span style="color:#6b6a64">en</span> → müss + <span class="tt">t</span> + e = <b>müsste</b></div><div class="leg" style="margin-top:6px">Koncovky: -e, -est, -e, -en, -et, -en</div></div>
+<div class="leg"><span class="u">žlutě</span> = přehláska (sollen ji nemá)</div>
+
+<h2 id="t2"><i>2</i>Kdy se používá</h2>
+<div class="ex k" style="border-color:var(--bld);background:var(--bl);color:var(--blx)"><small>Zdvořilá prosba</small><b>Könnten</b> Sie mir helfen?</div>
+<div class="ex d" style="border-color:var(--cod);background:var(--co);color:var(--cox)"><small>Zdvořilé dovolení</small><b>Dürfte</b> ich das Fenster öffnen?</div>
+<div class="ex s" style="border-color:var(--grd);background:var(--gr);color:var(--grx)"><small>Rada</small>Du <b>solltest</b> weniger am Handy sein.</div>
+<div class="ex m" style="border-color:var(--pud);background:var(--pu);color:var(--pux)"><small>Hypotéza</small>Ich <b>müsste</b> mehr lernen.</div>
+<div class="past"><b>Minulost:</b> hätte + infinitiv + modální sloveso<br>Ich <b>hätte</b> mehr lernen <b>müssen</b>.</div>
+
+<h2 id="t3"><i>3</i>Medien – slovíčka</h2>
+<div class="lab" style="font-size:14px;color:#6b6a64">U každého slovíčka je rovnou překlad.</div>
+<div id="vo"></div>
+
+<h2 id="t4"><i>4</i>Rychlý kvíz</h2>
+<div class="qc" id="quiz"></div>
+</main>
+
+<script>
+var V=[['müsst','müssen','m','muset','ich müsste = musel bych'],['könnt','können','k','moci, umět','ich könnte = mohl bych'],['sollt','sollen','s','mít (povinnost, rada)','ich sollte = měl bych'],['dürft','dürfen','d','smět','ich dürfte = směl bych']];
+var P=[['ich','e'],['du','est'],['er/sie/es','e'],['wir','en'],['ihr','et'],['sie/Sie','en']];
+var cur=0;
+function hl(s){return s.replace(/[üö]/,function(m){return '<span class="u">'+m+'</span>'})}
+function draw(){
+var b='';
+P.forEach(function(p,i){b+='<button class="'+(i===cur?'on':'')+'" data-i="'+i+'">'+p[0]+'</button>'});
+var pr=document.getElementById('pr');pr.innerHTML=b;
+var g='';
+V.forEach(function(v){var st=v[0].slice(0,-1);g+='<div class="v '+v[2]+'"><small>'+v[1]+' = '+v[3]+'</small><div class="big">'+hl(st)+'<span class="tt">t</span>'+P[cur][1]+'</div><div class="cz">'+v[4]+'</div></div>'});
+document.getElementById('grid').innerHTML=g;
+pr.querySelectorAll('button').forEach(function(el){el.onclick=function(){cur=+el.getAttribute('data-i');draw()}});
+}
+draw();
+
+var C=[
+['Tisk','d',[['die Zeitung','noviny'],['die Zeitschrift','časopis'],['der Artikel','článek'],['die Schlagzeile','titulek'],['der Journalist','novinář'],['die Quelle','zdroj']]],
+['Televize a rádio','m',[['das Fernsehen','televize'],['das Radio','rádio'],['die Sendung','pořad'],['der Kanal','kanál'],['die Nachrichten','zprávy'],['die Werbung','reklama']]],
+['Internet a sítě','k',[['die Medien','média'],['die sozialen Medien','sociální sítě'],['der Beitrag','příspěvek'],['die Meinung','názor'],['die Fake News','falešné zprávy']]],
+['Slovesa','s',[['herunterladen','stáhnout'],['abonnieren','odebírat'],['posten','zveřejnit'],['teilen','sdílet'],['streamen','streamovat'],['berichten über','informovat o'],['sich informieren','informovat se'],['süchtig sein nach','být závislý na']]]
+];
+var cs={m:['var(--pu)','var(--pud)','var(--pux)'],k:['var(--bl)','var(--bld)','var(--blx)'],s:['var(--gr)','var(--grd)','var(--grx)'],d:['var(--co)','var(--cod)','var(--cox)']};
+var vo=document.getElementById('vo'),h='';
+C.forEach(function(c,ci){
+var col=cs[c[1]];
+h+='<div class="cat" style="color:'+col[2]+'">'+c[0]+'</div><div class="vg">';
+c[2].forEach(function(w,wi){h+='<button class="vb" data-c="'+ci+'" data-w="'+wi+'" style="background:'+col[0]+';border-color:'+col[1]+';color:'+col[2]+'">'+w[0]+'<span class="cz2">'+w[1]+'</span></button>'});
+h+='</div>';
+});
+vo.innerHTML=h;
+
+var Q=[
+['Ich ___ mehr lernen. (müssen)',['müsste','musste','müsse','müssten'],0],
+['Du ___ weniger am Handy sein. (sollen)',['söllest','solltest','sollst','sölltest'],1],
+['___ ich das Fenster öffnen? (dürfen, zdvořile)',['Durfte','Dürfe','Dürfte','Darf'],2],
+['Wir ___ euch helfen. (können)',['könnten','konnten','könnt','können'],0],
+['Ich ___ mehr lernen müssen. (minulost)',['würde','hätte','wäre','hatte'],1]
+];
+var qi=0,sc=0,qb=document.getElementById('quiz');
+function showQ(){
+if(qi>=Q.length){qb.innerHTML='<div style="color:#6b6a64">Hotovo</div><div class="sc">'+sc+' / '+Q.length+'</div><button id="rs">Zkusit znovu</button>';
+document.getElementById('rs').onclick=function(){qi=0;sc=0;showQ()};return}
+var q=Q[qi],o='';
+q[1].forEach(function(t,i){o+='<button data-i="'+i+'">'+t+'</button>'});
+qb.innerHTML='<div style="font-size:13px;color:#6b6a64">Otázka '+(qi+1)+' z '+Q.length+'</div><div class="t">'+q[0]+'</div><div class="opts">'+o+'</div>';
+var bs=qb.querySelectorAll('.opts button'),done=false;
+bs.forEach(function(b){b.onclick=function(){
+if(done)return;done=true;
+var i=+b.getAttribute('data-i');
+if(i===q[2]){sc++;b.classList.add('right')}else{b.classList.add('wrong');bs[q[2]].classList.add('right')}
+setTimeout(function(){qi++;showQ()},1100);
+}});
+}
+showQ();
+</script>
+</body>
+</html>
